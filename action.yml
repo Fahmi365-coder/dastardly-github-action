@@ -3,7 +3,7 @@ description: 'Runs a Dastardly scan against a target site'
 author: 'PortSwigger'
 inputs:
   target-url:
-    description: 'The full url (including scheme) of the site to scan'
+    description: https://0ab400d5032a7893b390aebd001f0081.web-security-academy.net
     required: true
   output-filename:
     description: 'The filename used for the scan report. This filepath relates to the dastardly container, and will exist in the github workspace (/github/workspace)'
